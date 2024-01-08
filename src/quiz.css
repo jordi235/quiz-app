@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #8d5858, #332e63);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.progress-bar {
+    height: 10px;
+    background: #ffffff52;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 0.5s ease;
+    /* Animacja zmiany szerokości */
+}
+
+.container {
+    text-align: center;
+}
+
+.quiz-container {
+    background: #0000001f;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 900px;
+    margin: auto;
+    overflow: hidden;
+    /* Dodane, aby ukryć overflow od progress bar */
+    position: relative;
+    /* Dodane, aby ustawić pozycję dla potomków */
+}
+
+.quiz-question {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.quiz-options {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.quiz-option {
+    background: linear-gradient(to right,
+            #2830482d 0%,
+            #2830481e 20%,
+            #28304800 100%);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    max-width: 500px;
+}
+
+.quiz-option:hover {
+    background: linear-gradient(to right,
+            #0000002d 0%,
+            #0000001e 20%,
+            #00000000 100%);
+}
+
+.quiz-option.selected {
+    background-color: #351d5d63;
+    background: linear-gradient(to right,
+            #351d5d2d 0%,
+            #351d5d1e 20%,
+            #351d5d00 100%);
+    color: #FFF;
+}
+
+.quiz-button {
+    background-color: #0000001f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.quiz-button:hover {
+    background-color: #00000036;
+}
+
+.results-container {
+    background: #0000001f;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    margin: auto;
+}
+
+.results-score {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.results-button {
+    background-color: #4535333d;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.results-button:hover {
+    background-color: #00000036;
+}
