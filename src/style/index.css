@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  min-height: 100%;
+  overflow: hidden;
+  background: url(../assets/images/wp6195888-cyberpunk-aesthetic-4k-wallpapers.png);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+* {
+  cursor: url(../assets/images/cursor.png), pointer;
+}

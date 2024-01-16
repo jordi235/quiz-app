@@ -1,0 +1,9 @@
+.progress-bar {
+    height: 10px;
+    background: #ffffff52;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 0.5s ease;
+    /* Animacja zmiany szerokości */
+}

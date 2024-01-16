@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --red: rgba(211, 87, 91, 0.81);
+    --red-glow: rgba(211, 87, 91, 0.91);
+    --blue: #61e4fa;
+    --dark-red: rgba(255, 0, 0, 0.048);
+  }
+
+.start-menu {
+    width: 450px;
+    height: 100vh;
+
+    transform: rotateX(0deg) rotateY(4deg);
+    transform-style: preserve-3d;
+    padding: 100px 0;
+    background: var(--dark-red) url(../assets/images/ca8chn55ylfb1.png);
+    background-size: contain;
+    background-repeat: round;
+    margin: -50px 150px;
+    line-height: 300%;
+}
+
+.main {
+    perspective: 400px;
+}
+
+.start-menu ul li {
+    font-size: 26px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: var(--red);
+    text-shadow: 0px 0px 1px var(--red-glow);
+    font-family: 'Oxanium', sans-serif;
+    font-weight: 400;
+    list-style-type: none;
+}
+
+.start-menu ul li:hover{
+    color: var(--blue);
+
+    transition: color 0.23s linear;
+}
+
+.logo {
+    width: max-content;
+}
+
+.logo img {
+    width: 90%;
+    margin: 100px 0 0 -20px;
+}
+
+
