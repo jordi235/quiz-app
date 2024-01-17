@@ -1,4 +1,5 @@
 import React from 'react';
+import '../style/quiz.css';
 import Quiz from './Quiz/quiz';
 
 function App() {
@@ -6,6 +7,8 @@ function App() {
     <div className="App">
       <Quiz />
     </div>
+
+    
  );
 }
 

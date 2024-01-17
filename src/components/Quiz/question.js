@@ -1,10 +1,7 @@
-import React from 'react';
-import '../../style/question.css';
-
 const Question = ({ question, options, selectedAnswer, handleAnswerClick }) => {
   return (
     <div className="quiz-container" style={{ position: 'relative' }}>
-      <h1>Quiz React</h1>
+      <h1>Cyberquiz</h1>
       <p>{question}</p>
       <ul>
         {options.map((option, index) => (

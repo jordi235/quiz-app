@@ -4,17 +4,21 @@
     --red: rgba(211, 87, 91, 0.81);
     --red-glow: rgba(211, 87, 91, 0.91);
     --blue: #61e4fa;
-    --dark-red: rgba(255, 0, 0, 0.048);
+    --dark-red: rgba(20, 9, 9, 0.144);
+    --bg-black: rgba(0, 0, 0, 0.315);
+    --bg-shadow: rgba(0, 0, 0, 0.3);
+    --cursor-main: url(../assets/images/cursor.png);
+    --cursor-select: url(../assets/images/pointer.png);
   }
+
 
 .start-menu {
     width: 450px;
     height: 100vh;
-
     transform: rotateX(0deg) rotateY(4deg);
     transform-style: preserve-3d;
     padding: 100px 0;
-    background: var(--dark-red) url(../assets/images/ca8chn55ylfb1.png);
+    background: var(--bg-black) url(../assets/images/menu.png);
     background-size: contain;
     background-repeat: round;
     margin: -50px 150px;
@@ -34,6 +38,7 @@
     font-family: 'Oxanium', sans-serif;
     font-weight: 400;
     list-style-type: none;
+    transition: color 0.23s linear;
 }
 
 .start-menu ul li:hover{

@@ -1,7 +1,9 @@
 // Quiz.js
 import React, { useCallback, useEffect, useState } from 'react';
+import '../../style/progress.css';
 import '../../style/quiz.css';
-import allQuestions from '../../utils/questions';
+import '../../style/start.css';
+import allQuestions from '../../utils/cpquestions';
 import ProgressBar from './progessBar';
 import Question from './question';
 import Results from './results';
@@ -80,7 +82,7 @@ const Quiz = () => {
             return <StartPage startQuiz={startQuiz} />;
         } else if (!quizFinished && questions[currentQuestion]) {
             return (
-                <>
+                <div className='menu'>
                     <ProgressBar progress={progress} />
                     <Question
                         question={questions[currentQuestion].question}
@@ -88,17 +90,17 @@ const Quiz = () => {
                         selectedAnswer={selectedAnswer}
                         handleAnswerClick={handleAnswerClick}
                     />
-                    <button className="quiz-button" onClick={handleNextQuestion}>
-                        Następne pytanie
+                    <button className="button quiz" onClick={handleNextQuestion}>
+                        dalej
                     </button>
-                </>
+                </div>
             );
         } else {
             return (
-                <div className="results-container">
+                <div className="menu results-menu">
                     <Results score={score} totalQuestions={questions.length} />
-                    <button className="results-button" onClick={handleRestartQuiz}>
-                        Rozpocznij od nowa
+                    <button className="button" onClick={handleRestartQuiz}>
+                        powrót
                     </button>
                 </div>
             );

@@ -4,11 +4,16 @@ body {
   color: #fff;
   min-height: 100%;
   overflow: hidden;
-  background: url(../assets/images/wp6195888-cyberpunk-aesthetic-4k-wallpapers.png);
+  background: url(../assets/images/bg-image-og.png);
   background-attachment: fixed;
   background-size: cover;
 }
 
 * {
   cursor: url(../assets/images/cursor.png), pointer;
+  font-family: 'Oxanium', sans-serif;
+}
+
+:root{
+  --main: ur
 }
