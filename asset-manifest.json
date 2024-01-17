@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/quiz-app/static/css/main.b7a36a0d.css",
-    "main.js": "/quiz-app/static/js/main.1d822b55.js",
+    "main.css": "/quiz-app/static/css/main.74928271.css",
+    "main.js": "/quiz-app/static/js/main.33044de4.js",
     "static/js/787.4829fc1b.chunk.js": "/quiz-app/static/js/787.4829fc1b.chunk.js",
-    "static/media/wp6195888-cyberpunk-aesthetic-4k-wallpapers.png": "/quiz-app/static/media/wp6195888-cyberpunk-aesthetic-4k-wallpapers.d1411e363e9cd2dd78de.png",
-    "static/media/ca8chn55ylfb1.png": "/quiz-app/static/media/ca8chn55ylfb1.01787bdf4ed88cded03d.png",
+    "static/media/bg-image-og.png": "/quiz-app/static/media/bg-image-og.d6b7fcb3d2cc4ca87174.png",
+    "static/media/menu.png": "/quiz-app/static/media/menu.01787bdf4ed88cded03d.png",
     "static/media/logo.png": "/quiz-app/static/media/logo.8695b9055c64aa9a2a13.png",
     "static/media/cursor.png": "/quiz-app/static/media/cursor.edd08f092545967eaeec.png",
     "index.html": "/quiz-app/index.html",
-    "main.b7a36a0d.css.map": "/quiz-app/static/css/main.b7a36a0d.css.map",
-    "main.1d822b55.js.map": "/quiz-app/static/js/main.1d822b55.js.map",
+    "main.74928271.css.map": "/quiz-app/static/css/main.74928271.css.map",
+    "main.33044de4.js.map": "/quiz-app/static/js/main.33044de4.js.map",
     "787.4829fc1b.chunk.js.map": "/quiz-app/static/js/787.4829fc1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7a36a0d.css",
-    "static/js/main.1d822b55.js"
+    "static/css/main.74928271.css",
+    "static/js/main.33044de4.js"
   ]
 }
