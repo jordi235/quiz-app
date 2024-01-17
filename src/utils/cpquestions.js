@@ -142,8 +142,8 @@ const questions = [
     },
     {
         question: 'Delamain był:',
-        options: ['SI odpowiadającą za firmę przewozową', 'SI odpowiadającą za firmę przewozową', 'Fixerem', '10'],
-        correctAnswer: '7',
+        options: ['SI odpowiadającą za firmę przewozową', 'Najemnikiem', 'Fixerem', 'Burmistrzem'],
+        correctAnswer: 'SI odpowiadającą za firmę przewozową',
     },
     {
         question: 'Która postać niezależnie od naszych decyzji zawsze ginie w grze?',
@@ -158,7 +158,7 @@ const questions = [
     {
         question: 'Przedstawicielem Voodoo Boysów był:',
         options: ['Mitch Anderson', 'Placide', 'Ozob Bozo', 'T-Bug'],
-        correctAnswer: '7',
+        correctAnswer: 'Placide',
     },
     {
         question: 'Nazwiska której postaci nigdy nie poznajemy w grze?',
